@@ -6,3 +6,28 @@ html {
   box-sizing: inherit;
 }
 
+.dialog-box {
+    background-color: #d2d2d2;
+    padding: 5px;
+    font-family: serif;
+    position: relative;
+}
+
+.dialog-box__title {
+    margin:0 0 20px 0;
+}
+
+.dialog-box__content {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.dialog-box__close {
+    border: 2px solid white;
+    background-color: tomato;
+    width: 24px;
+    height: 24px;
+    position:absolute;
+    top: 5px;
+    right: 5px;
+}
