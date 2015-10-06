@@ -1,1 +1,35 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /* write your css here */
+nav {
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    position: fixed;
+    padding: 0.5em;
+    top:0;
+    left: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    border: 1px white solid;
+    padding: 0.5em;
+    margin-left: 0.5em;
+    line-height: 1;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+}
