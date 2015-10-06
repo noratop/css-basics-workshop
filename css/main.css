@@ -2,7 +2,41 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align:center;
+}
+
+img { 
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 40em) { 
+    li {
+        width:100%;
+    }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+    li {
+        width:48%;
+    }
+}
+
+@media only screen and (min-width: 64.063em) { 
+    li {
+        width:28%;
+    }
+}
